@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.emmalady.lesson4rikkeiandroid.Ex2Activity">
+
+    <!--CHOOSE LANGUAGE-->
+    <ImageView
+        android:id="@+id/imgMongolia"
+        android:layout_width="@dimen/img_flag_size_width"
+        android:layout_height="@dimen/img_flag_size_width"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/margin_flag_left"
+        android:layout_marginStart="@dimen/margin_flag_left"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_bottom"
+        android:contentDescription="@string/desc_img_arab_flag"
+        app:srcCompat="@drawable/mongolia_flag"/>
+    <ImageView
+        android:id="@+id/imgRussia"
+        android:layout_width="@dimen/img_flag_size_width"
+        android:layout_height="@dimen/img_flag_size_width"
+        android:contentDescription="@string/desc_img_uk_flag"
+        app:srcCompat="@drawable/russia_flag"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btNext"
+        android:layout_toEndOf="@+id/btNext" />
+    <ImageView
+        android:id="@+id/imgArab"
+        android:layout_width="@dimen/img_flag_size_width"
+        android:layout_height="@dimen/img_flag_size_width"
+        android:layout_toLeftOf="@id/imgMongolia"
+        android:layout_toStartOf="@id/imgMongolia"
+        android:layout_marginLeft="@dimen/margin_flag_left"
+        android:layout_marginStart="@dimen/margin_flag_left"
+        android:contentDescription="@string/desc_img_uk_flag"
+        app:srcCompat="@drawable/arab_flag"/>
+
+    <!--HAVE FUN-->
+    <Button
+        android:id="@+id/btHaveFun"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="@dimen/bt_height"
+        android:text="@string/bt_Have_Fun"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imgMongolia"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:textSize="@dimen/tv_text_size"
+        android:textColor="@color/colorOrange"
+        android:background="@color/bgButton"/>
+
+    <!--DO SOMETHING-->
+    <Button
+        android:id="@+id/btDoSomething"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="@dimen/bt_height"
+        android:text="@string/bt_Do_Sth"
+        android:layout_below="@id/btHaveFun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_bottom"
+        android:textSize="@dimen/tv_text_size"
+        android:textColor="@color/colorGreen"
+        android:background="@color/bgButton"/>
+
+    <!--CLICK HERE-->
+    <Button
+        android:id="@+id/btClickHere"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="@dimen/bt_height"
+        android:text="@string/bt_Click_Here"
+        android:layout_below="@id/btDoSomething"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_bottom"
+        android:textSize="@dimen/tv_text_size"
+        android:textColor="@color/colorBlue"
+        android:background="@color/bgButton"/>
+
+    <!--SURPRISE-->
+    <Button
+        android:id="@+id/btSurprise"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="@dimen/bt_height"
+        android:text="@string/bt_Surprise"
+        android:layout_below="@id/btClickHere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_bottom"
+        android:textSize="@dimen/tv_text_size"
+        android:textColor="@color/colorMagenta"
+        android:background="@color/bgButton"/>
+
+    <!--NEXT-->
+    <Button
+        android:id="@+id/btNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_Next"
+        android:layout_below="@id/btSurprise"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin_top"
+        android:textSize="@dimen/tv_text_size"/>
+</RelativeLayout>

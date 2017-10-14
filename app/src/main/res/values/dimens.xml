@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--MARGIN-->
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin_extra">10dp</dimen>
+    <dimen name="activity_vertical_margin_top">20dp</dimen>
+    <dimen name="activity_vertical_margin_bottom">10dp</dimen>
+    <dimen name="activity_vertical_margin_left">10dp</dimen>
+    <dimen name="activity_flag_margin_left">20dp</dimen>
+
+    <dimen name="margin_flag_left">20dp</dimen>
+    <dimen name="margin_flag_left_extra">40dp</dimen>
+
+    <!--BUTTON-->
+    <dimen name="bt_width">210dp</dimen>
+    <dimen name="bt_width_zero">0dp</dimen>
+    <dimen name="bt_height">50dp</dimen>
+
+    <!--TEXTVIEW-->
+    <dimen name="tv_text_size">16sp</dimen>
+    <dimen name="tv_text_size_extra">20sp</dimen>
+
+    <!--ImageView-->
+    <dimen name="img_flag_size_width">40dp</dimen>
+    <dimen name="img_flag_size_width_extra">50dp</dimen>
+</resources>

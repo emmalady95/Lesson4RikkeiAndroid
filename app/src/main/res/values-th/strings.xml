@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">บทที่ 4</string>
+    <string name="name_ex2">การออกกำลังกาย 2</string>
+    <string name="name_ex3">การออกกำลังกาย 3</string>
+
+    <string name="bt_Have_Fun" translatable="false">มีความสุข</string>
+    <string name="bt_Do_Sth" translatable="false">ทำอะไรสักอย่าง</string>
+    <string name="bt_Click_Here" translatable="false">คลิกที่นี่</string>
+    <string name="bt_Surprise" translatable="false">แปลกใจ</string>
+    <string name="bt_Choose_Language" translatable="false">เลือกภาษา</string>
+    <string name="bt_Next" translatable="false">ต่อไป</string>
+</resources>

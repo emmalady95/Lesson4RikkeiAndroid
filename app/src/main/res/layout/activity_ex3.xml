@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.emmalady.lesson4rikkeiandroid.Ex1Activity">
+
+    <!--HAVE FUN-->
+    <Button
+        android:id="@+id/btHaveFun"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="@dimen/bt_height"
+        android:text="@string/bt_Have_Fun"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:textSize="@dimen/tv_text_size"
+        android:textColor="@color/colorOrange"
+        android:background="@color/bgButton"/>
+
+    <!--DO SOMETHING-->
+    <Button
+        android:id="@+id/btDoSomething"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="@dimen/bt_height"
+        android:text="@string/bt_Do_Sth"
+        android:layout_below="@id/btHaveFun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_bottom"
+        android:textSize="@dimen/tv_text_size"
+        android:textColor="@color/colorGreen"
+        android:background="@color/bgButton"/>
+
+    <!--CLICK HERE-->
+    <Button
+        android:id="@+id/btClickHere"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="@dimen/bt_height"
+        android:text="@string/bt_Click_Here"
+        android:layout_below="@id/btDoSomething"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_bottom"
+        android:textSize="@dimen/tv_text_size"
+        android:textColor="@color/colorBlue"
+        android:background="@color/bgButton"/>
+
+    <!--SURPRISE-->
+    <Button
+        android:id="@+id/btSurprise"
+        android:layout_width="@dimen/bt_width"
+        android:layout_height="@dimen/bt_height"
+        android:text="@string/bt_Surprise"
+        android:layout_below="@id/btClickHere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_bottom"
+        android:textSize="@dimen/tv_text_size"
+        android:textColor="@color/colorMagenta"
+        android:background="@color/bgButton"/>
+
+    <!--CHOOSE LANGUAGE-->
+    <ImageView
+        android:id="@+id/imgLaos"
+        android:layout_width="@dimen/img_flag_size_width"
+        android:layout_height="@dimen/img_flag_size_width"
+        android:layout_below="@+id/btSurprise"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/margin_flag_left"
+        android:layout_marginStart="@dimen/margin_flag_left"
+        android:contentDescription="@string/desc_img_laos_flag"
+        app:srcCompat="@drawable/laos_flag"/>
+    <ImageView
+        android:id="@+id/imgThailand"
+        android:layout_width="@dimen/img_flag_size_width"
+        android:layout_height="@dimen/img_flag_size_width"
+        android:layout_below="@+id/btSurprise"
+        android:layout_marginLeft="@dimen/margin_flag_left"
+        android:layout_marginStart="@dimen/margin_flag_left"
+        android:layout_toRightOf="@+id/imgLaos"
+        android:layout_toEndOf="@+id/imgLaos"
+        android:contentDescription="@string/desc_img_thailand_flag"
+        app:srcCompat="@drawable/thailand_flag"/>
+    <ImageView
+        android:id="@+id/imgVietnam"
+        android:layout_width="@dimen/img_flag_size_width"
+        android:layout_height="@dimen/img_flag_size_width"
+        android:layout_below="@+id/btSurprise"
+        android:layout_marginLeft="@dimen/margin_flag_left"
+        android:layout_marginStart="@dimen/margin_flag_left"
+        android:layout_toRightOf="@+id/imgThailand"
+        android:layout_toEndOf="@+id/imgThailand"
+        android:contentDescription="@string/desc_img_vietnam_flag"
+        app:srcCompat="@drawable/vietnam_flag"/>
+    <ImageView
+        android:id="@+id/imgJapan"
+        android:layout_width="@dimen/img_flag_size_width"
+        android:layout_height="@dimen/img_flag_size_width"
+        android:layout_below="@id/btSurprise"
+        android:layout_toLeftOf="@id/imgLaos"
+        android:layout_toStartOf="@id/imgLaos"
+        android:layout_marginLeft="@dimen/margin_flag_left"
+        android:layout_marginStart="@dimen/margin_flag_left"
+        app:srcCompat="@drawable/japan_flag"/>
+    <ImageView
+        android:id="@+id/imgUK"
+        android:layout_width="@dimen/img_flag_size_width"
+        android:layout_height="@dimen/img_flag_size_width"
+        android:layout_below="@+id/btSurprise"
+        android:layout_toLeftOf="@id/imgJapan"
+        android:layout_toStartOf="@id/imgJapan"
+        android:contentDescription="@string/desc_img_uk_flag"
+        app:srcCompat="@drawable/uk_flag"/>
+</RelativeLayout>

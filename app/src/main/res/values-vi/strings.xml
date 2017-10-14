@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Bài tập buổi 4</string>
+    <string name="name_ex2">Bài 2</string>
+    <string name="name_ex3">Bài 3</string>
+
+    <string name="bt_Have_Fun" translatable="false">Có sự vui vẻ</string>
+    <string name="bt_Do_Sth" translatable="false">Làm gì đó</string>
+    <string name="bt_Click_Here" translatable="false">Click tại đây</string>
+    <string name="bt_Surprise" translatable="false">Ngạc nhiên</string>
+    <string name="bt_Next" translatable="false">Tiếp</string>
+</resources>
